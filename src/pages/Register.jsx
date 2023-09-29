@@ -33,7 +33,7 @@ function Register() {
   };
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <div className="flex  justify-center items-center min-w-[1000px] mx-auto mt-[50px]">
+      <div className="flex  justify-center items-center max-w-[400px] sm:max-w-[1000px] mx-auto mt-[50px]">
         <div className="flex flex-col justify-center items-center bg-darkGray  w-[500px] h-[550px] gap-5 rounded-xl">
           <div className="flex flex-col ">
             <label className="pr-4 text-white">User Name</label>

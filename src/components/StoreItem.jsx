@@ -1,7 +1,8 @@
-import { useShopping } from "../contexts/ShoppingCart";
+import { useShopping } from "../contexts/ShoppingCartContext";
 import { FormatCurrency } from "../utility/FormatCurrency";
 export const StoreItem = ({ id, img, price, name }) => {
-  const { getItemQuantity, IncreaseQuantity, DecreaseQuantity } = useShopping();
+  const { getItemQuantity, IncreaseQuantity, DecreaseQuantity, RemoveItem } =
+    useShopping();
   const quantity = getItemQuantity(id);
   return (
     <div>

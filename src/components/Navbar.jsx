@@ -3,8 +3,10 @@ import { BsCart3 } from "react-icons/bs";
 import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
+import { useShopping } from "../contexts/ShoppingCartContext";
 export const Navbar = () => {
   const [open, setopen] = useState(false);
+  const {OpenCart,CartQuantity}=useShopping();
   return (
     <div className="flex justify-between items-center p-4 sticky top-0 bg-black text-white">
       <div className="flex gap-6">
@@ -18,9 +20,9 @@ export const Navbar = () => {
         <Link to="/login">Login</Link>
         <div>
           <div>
-            <BsCart3 size={30} />
+            <BsCart3 size={30} onClick={OpenCart} className="cursor-pointer"/>
             <div className="w-[1.5rem] h-[1.5rem] bg-orange absolute bottom-4 right-2 rounded-full text-center translate-x-[25%] translate-y-[25%] cursor-pointer">
-              +
+              {CartQuantity}
             </div>
           </div>
         </div>
@@ -28,9 +30,9 @@ export const Navbar = () => {
       <div className="flex flex-row-reverse gap-3 sm:hidden cursor-pointer">
         {!open && <FiMenu size={30} onClick={() => setopen(!open)} />}
         <div>
-            <BsCart3 size={30} />
+            <BsCart3 size={30} onClick={OpenCart}/>
             <div className="w-[1.5rem] h-[1.5rem] bg-orange absolute bottom-4 right-14 rounded-full text-center translate-x-[25%] translate-y-[25%] cursor-pointer">
-              +
+              {CartQuantity}
             </div>
           </div>
       </div>

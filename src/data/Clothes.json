@@ -41,9 +41,16 @@
         "price":60.1,
         "name":"winter shirt"
     },{
-        "id":1,
+        "id":8,
         "img":"../../public/images/image8.jpg",
         "price":18.99,
         "name":"Brown Jacket"
+    },
+    {
+        "id":9,
+        "img":"../../public/images/image9.jpg",
+        "price":29.99,
+        "name":"Black Jacket"
     }
+    
 ]

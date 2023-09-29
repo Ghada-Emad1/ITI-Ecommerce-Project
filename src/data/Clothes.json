@@ -1,0 +1,49 @@
+[
+    {
+        "id":1,
+        "img":"../../public/images/image1.jpg",
+        "price":30.3,
+        "name":"Women Dress"
+    },
+    {
+        "id":2,
+        "img":"../../public/images/image2.jpg",
+        "price":20.3,
+        "name":"Hijab Dress"
+    },
+    {
+        "id":3,
+        "img":"../../public/images/image3.jpg",
+        "price":40.3,
+        "name":"Black Hijab Dress"
+    },
+    {
+        "id":4,
+        "img":"../../public/images/image4.jpg",
+        "price":45.99,
+        "name":" Jacket"
+    },
+    {
+        "id":5,
+        "img":"../../public/images/image5.jpg",
+        "price":25.3,
+        "name":"winter shirt"
+    },
+    {
+        "id":6,
+        "img":"../../public/images/image6.jpg",
+        "price":41.39,
+        "name":"Yellow pants"
+    },
+    {
+        "id":7,
+        "img":"../../public/images/image7.jpg",
+        "price":60.1,
+        "name":"winter shirt"
+    },{
+        "id":1,
+        "img":"../../public/images/image8.jpg",
+        "price":18.99,
+        "name":"Brown Jacket"
+    }
+]

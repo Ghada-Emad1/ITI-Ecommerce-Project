@@ -7,9 +7,9 @@ export const StoreItem = ({ id, img, price, name }) => {
   return (
     <div>
       <div className="p-4 rounded-lg bg-platinum mx-auto flex flex-col ">
-        <div className="flex items-center justify-center">
+        <a href={`/details/${id}`} className="flex items-center justify-center">
           <img src={img} className="w-[500px] h-[500px] object-cover" />
-        </div>
+        </a>
         <div className="flex align-center justify-between my-4 text-lg font-semibold text-darkGray ">
           <p>{name}</p>
           <p>{FormatCurrency(price)}</p>

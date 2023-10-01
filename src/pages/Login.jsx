@@ -3,7 +3,7 @@ import React from 'react'
 function Login() {
   return (
     <form >
-    <div className="flex  justify-center items-center mx-auto mt-[100px] max-w-[400px] sm:max-w-[700px]">
+    <div className="flex  justify-center items-center mx-auto mt-[100px] max-w-[350px] sm:max-w-[700px]">
       <div className="flex flex-col justify-center items-center bg-darkGray h-[300px]  w-[500px]  gap-5 rounded-xl">
         
         <div className="flex flex-col">

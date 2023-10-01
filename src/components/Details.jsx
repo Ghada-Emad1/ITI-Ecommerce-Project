@@ -19,7 +19,7 @@ export const Details=()=>{
    
     return(
         <div className="flex items-center justify-center mt-8">
-          <div className="bg-platinum p-4 flex items-center flex-col font-semibold text-lg text-darkGray rounded-lg">
+          <div className=" w-[370px] sm:max-w-[550px] bg-platinum p-4 flex items-center flex-col font-semibold text-lg text-darkGray rounded-lg">
             <img src={Item.img} className="w-[400px] h-[400px] object-cover"/>
             <div>Name: {Item.name}</div>
             <div>Price: {FormatCurrency(Item.price)}</div>

@@ -13,6 +13,9 @@ export default {
         'platinum':'#E5E5E5',
         'white':'#FFFFFF'
       },
+      backgroundImage:{
+        'backgroundImage':"url('../../public/images/home.jpg')"
+      }
     },
   },
   plugins: [],

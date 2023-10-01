@@ -4,6 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { FetchClothes } from "../Api/FetchClothes";
 import { FormatCurrency } from "../utility/FormatCurrency";
 export const Details=()=>{
+  
     const {id}=useParams();
     const Result=useQuery(['clothes',id],FetchClothes);
    if(Result.isLoading){

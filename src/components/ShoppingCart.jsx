@@ -38,6 +38,7 @@ export const ShoppingCart = ({ isopen }) => {
           }, 0),
         )}
       </div>
+      
     </div>
   );
 };

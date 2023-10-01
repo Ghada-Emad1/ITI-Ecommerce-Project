@@ -21,10 +21,20 @@ export const Footer = () => {
         </div>
         <div className="flex flex-col gap-2 justify-center align-middle">
           First Name:{" "}
-          <input type="text" className="w-[300px] p-2 text-darkGray outline-none" />
+          <input
+            type="text"
+            className="w-[300px] p-2 text-darkGray outline-none"
+          />
           Last Name:{" "}
-          <input type="text" className="w-[300px] p-2 text-darkGray outline-none" />
-          Email: <input type="email" className="w-[300px] p-2 text-darkGray outline-none" />
+          <input
+            type="text"
+            className="w-[300px] p-2 text-darkGray outline-none"
+          />
+          Email:{" "}
+          <input
+            type="email"
+            className="w-[300px] p-2 text-darkGray outline-none"
+          />
           <button className="text-white bg-orange px-4 py-2 rounded-lg w-[100px] hover:opacity-75">
             Submit
           </button>
@@ -36,9 +46,15 @@ export const Footer = () => {
           </h1>
           <hr></hr>
           <div className="flex justify-center items-center gap-4">
-            <button className="bg-orange px-4 py-2 rounded-lg hover:opacity-75">Facebook</button>
-            <button className="bg-orange px-4 py-2 rounded-lg hover:opacity-75">Twitter</button>
-            <button className="bg-orange px-4 py-2 rounded-lg hover:opacity-75">Youtube</button>
+            <button className="bg-orange px-4 py-2 rounded-lg hover:opacity-75">
+              Facebook
+            </button>
+            <button className="bg-orange px-4 py-2 rounded-lg hover:opacity-75">
+              Twitter
+            </button>
+            <button className="bg-orange px-4 py-2 rounded-lg hover:opacity-75">
+              Youtube
+            </button>
           </div>
         </div>
       </footer>

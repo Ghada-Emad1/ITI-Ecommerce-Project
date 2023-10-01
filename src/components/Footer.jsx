@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <div className="w-full bg-darkGray p-6">
-      <footer className="flex justify-between gap-10 text-white">
+      <footer className="flex flex-col sm:flex-row justify-between gap-10 text-white">
         <div className="flex flex-col gap-5">
           <h1 className="bg-orange w-[200px] text-center py-2 rounded-lg">
             About Us
@@ -35,7 +35,7 @@ export const Footer = () => {
             Follow Us
           </h1>
           <hr></hr>
-          <div className="flex items-center justifiy-center gap-4">
+          <div className="flex justify-center items-center gap-4">
             <button className="bg-orange px-4 py-2 rounded-lg hover:opacity-75">Facebook</button>
             <button className="bg-orange px-4 py-2 rounded-lg hover:opacity-75">Twitter</button>
             <button className="bg-orange px-4 py-2 rounded-lg hover:opacity-75">Youtube</button>

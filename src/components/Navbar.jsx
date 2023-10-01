@@ -8,7 +8,7 @@ export const Navbar = () => {
   const [open, setopen] = useState(false);
   const {OpenCart,CartQuantity}=useShopping();
   return (
-    <div className="flex justify-between items-center p-4 sticky top-0 bg-black text-white">
+    <div className="flex justify-between items-center p-4 sticky w-full top-0 bg-black text-white">
       <div className="flex gap-6">
         <Link to="/">Home</Link>
         <Link to="/gallery">Gallery</Link>
